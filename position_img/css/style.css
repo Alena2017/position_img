@@ -1,0 +1,75 @@
+@import url(reset/reset.css);
+.wrapper {
+    width: 70%;
+    background: yellow;
+    min-height: 500px;
+    margin: 0%auto;
+}
+
+.inlblock {
+    display: inline-block;
+}
+
+div.center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -16px;
+    display: none;
+}
+
+.absolute2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -16px;
+    display: none;
+}
+
+.absolute3 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -16px;
+    display: none;
+}
+
+.picture {
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px double purple;
+    border-radius: 10px;
+    padding: 5px 0px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#picture1:hover>img+div.absolute1 {
+    display: block;
+}
+
+#picture2:hover>img+div.absolute2 {
+    display: block;
+}
+
+#picture3:hover>img+div.absolute3 {
+    display: block;
+}
